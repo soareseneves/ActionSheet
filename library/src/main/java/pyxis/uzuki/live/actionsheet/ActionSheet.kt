@@ -134,7 +134,7 @@ class ActionSheet : Fragment(), View.OnClickListener {
             val divider = View(activity)
             divider.setBackgroundColor(Color.TRANSPARENT)
 
-            val dividerParam = createLinearParams(height = activity.dip2px(2))
+            val dividerParam = createLinearParams(height = activity.dip2px(1))
 
             val params = createLinearParams(height = activity.dip2px(50))
             mPanel.addView(button, params)

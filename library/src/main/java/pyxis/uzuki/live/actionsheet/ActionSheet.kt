@@ -187,7 +187,7 @@ class ActionSheet : Fragment(), View.OnClickListener {
         }
 
         dismiss()
-        if (id != Constants.CANCEL_BUTTON_ID && id != Constants.BG_VIEW_ID) {
+        if (id != Constants.CANCEL_BUTTON_ID) {
             if (sheetConfig.onActionButtonClickListener != null) {
                 val index = (id - Constants.CANCEL_BUTTON_ID - 1)
                 val actionButton = sheetConfig.items[index]
